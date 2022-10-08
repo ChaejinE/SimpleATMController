@@ -6,7 +6,7 @@ BankAPI::BankAPI() : storage(std::make_shared<Storage>())
     bool result;
     result = storage->enrollClient("1111 1111 1111 1111", 1588, "123-456-789", 5);
     result = storage->enrollClient("2222 2222 2222 2222", 3082, "135-791-113", 20);
-    result = storage->addAccount("2222 2222 2222 2222", 1688, "246-810-121", 100);
+    result = storage->addAccount("2222 2222 2222 2222", 3082, "246-810-121", 100);
     result = storage->enrollClient("3333 3333 3333 3333", 5700, "", 0);
 };
 
