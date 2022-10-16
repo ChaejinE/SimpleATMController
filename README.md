@@ -61,7 +61,7 @@ Atfter deposit, current balance : $15
 Could you process again ? [y/n]
 ```
 
-# Withdraw Example
+## Withdraw Example
 ```
 Please insert your card. Ex) 0000 0000 0000 0000
 2222 2222 2222 2222
