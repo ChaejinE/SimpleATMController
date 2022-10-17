@@ -13,5 +13,4 @@ public:
 
 private:
     std::shared_ptr<Storage> storage;
-    std::string s;
 };

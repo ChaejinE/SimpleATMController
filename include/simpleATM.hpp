@@ -29,6 +29,4 @@ private:
     std::pair<bool, int> requestBalanceToServer();
     std::pair<bool, int> requestDepositToServer(int money);
     std::pair<bool, int> requestWithdrawToServer(int money);
-
-    std::vector<bool (*)()> workFlow;
 };
